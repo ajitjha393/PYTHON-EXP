@@ -5,7 +5,7 @@ def readArray():
     myArray = np.array([], dtype='int32')
     num = int(input("Enter the number of elements of the array"))
     for i in range(0, num):
-        myArray = np.append(myArray, int(input(f"Enter Array{i} = ")))
+        myArray = np.append(myArray, int(input(f"Enter the Array{i} = ")))
     return myArray
 
 
